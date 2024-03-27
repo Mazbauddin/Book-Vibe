@@ -1,8 +1,13 @@
+/* eslint-disable react/prop-types */
 import { FaRegStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import Spinner from "../Spinner/Spinner";
 
-const Book = ({ item }) => {
+const Book = ({ item, loading }) => {
   const { image, id, bookName, author, category, rating, tags } = item || {};
+  if (loading) {
+    return <Spinner></Spinner>;
+  }
   return (
     <Link to={`/book-details/${id}`}>
       <div className="flex flex-col max-w-lg p-6 space-y-6 overflow-hidden rounded-lg shadow-md dark:bg-gray-50 dark:text-gray-800">

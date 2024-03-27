@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import useBooksData from "../Hooks/useBooksData";
 import { useEffect, useState } from "react";
 import { saveToLocalStorage } from "../../utility/localStorage";
+import Spinner from "../Spinner/Spinner";
 
 const BookDetails = () => {
   const [singleData, setSingleData] = useState({});
@@ -31,6 +32,10 @@ const BookDetails = () => {
     yearOfPublishing,
     image,
   } = singleData || {};
+
+  if (loading) {
+    return <Spinner></Spinner>;
+  }
   return (
     <div>
       <section className="dark:bg-gray-100 dark:text-gray-800">

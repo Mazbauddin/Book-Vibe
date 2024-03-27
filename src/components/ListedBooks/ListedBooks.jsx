@@ -2,12 +2,16 @@ import { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
 import useLocalStorage from "../Hooks/useLocalStorage";
 import ReadMore from "../ReadMore/ReadMore";
+import Spinner from "../Spinner/Spinner";
 
 const ListedBooks = () => {
-  const { localData } = useLocalStorage();
+  const { localData, loading } = useLocalStorage();
   console.log(localData);
 
   const [tabIndex, setTabIndex] = useState(0);
+  if (loading) {
+    return <Spinner></Spinner>;
+  }
   return (
     <div className="max-w-6xl mx-auto">
       <h2 className=" text-center">Books</h2>

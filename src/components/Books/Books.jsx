@@ -13,7 +13,7 @@ const Books = () => {
       </div>
       <div className="grid grid-cols-3 gap-8 max-w-6xl mx-auto">
         {data.map((item) => (
-          <Book key={item.id} item={item}></Book>
+          <Book loading={loading} key={item.id} item={item}></Book>
         ))}
       </div>
     </div>
