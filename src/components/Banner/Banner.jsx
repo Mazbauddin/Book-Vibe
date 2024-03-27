@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Banner = () => {
   return (
     <div className="container mx-auto">
@@ -11,9 +13,12 @@ const Banner = () => {
             <h1 className="text-6xl w-4/5 font-bold">
               Books to freshen up your bookshelf
             </h1>
-            <button className="btn bg-[#23BE0A] text-white hover:bg-transparent border-2 border-[#23BE0A] hover:text-[#23BE0A] hover:border-[#23BE0A] mt-10">
+            <Link
+              to="listed_books"
+              className="btn bg-[#23BE0A] text-white hover:bg-transparent border-2 border-[#23BE0A] hover:text-[#23BE0A] hover:border-[#23BE0A] mt-10"
+            >
               View The List
-            </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,22 +1,19 @@
-import { useEffect, useState } from "react";
+// New line
+
 import Book from "../Book/Book";
+import useBooksData from "../Hooks/useBooksData";
 
 const Books = () => {
-  const [books, setBooks] = useState([]);
+  const { data, loading } = useBooksData();
 
-  useEffect(() => {
-    fetch("books.json")
-      .then((res) => res.json())
-      .then((data) => setBooks(data));
-  }, []);
   return (
     <div className="container mx-auto">
       <div>
-        <h1 className="text-5xl text-center font-bold">Books</h1>
+        <h1 className="text-5xl text-center font-bold">Books</h1>{" "}
       </div>
-      <div className="grid grid-cols-3 gap-8">
-        {books.map((book) => (
-          <Book key={book.bookId} book={book}></Book>
+      <div className="grid grid-cols-3 gap-8 max-w-6xl mx-auto">
+        {data.map((item) => (
+          <Book key={item.id} item={item}></Book>
         ))}
       </div>
     </div>

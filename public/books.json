@@ -1,10 +1,10 @@
 [
   {
-    "bookId": 1,
+    "id": 1,
     "bookName": "The Silent Patient",
     "author": "Alex Michaelides",
-    "image": "the_silent_patient.jpg",
-    "review": "A gripping psychological thriller that keeps you guessing until the very end.",
+    "image": "https://i.ibb.co/QkJCQZz/silent-patient.png",
+    "review": "'The Silent Patient' by Alex Michaelides is a riveting psychological thriller that delves into the depths of the human psyche. The story follows Alicia Berenson, a talented painter who seemingly has it all until one evening when she shoots her husband five times in the face and then never speaks another word. The novel is narrated by Theo Faber, a psychotherapist who becomes obsessed with Alicia's case and is determined to unravel the mystery behind her silence. As Theo delves deeper into Alicia's past and attempts to penetrate her silence, he uncovers shocking revelations and dark secrets that will leave readers on the edge of their seats. Michaelides masterfully weaves together a gripping narrative filled with twists and turns, keeping readers guessing until the very end. The characters are complex and well-developed, adding layers of depth to the story. Alicia's silence speaks volumes, drawing readers into her enigmatic world while Theo's relentless pursuit of the truth adds tension and suspense to the narrative. 'The Silent Patient' is not just a thriller; it's a thought-provoking exploration of guilt, trauma, and the complexities of the human mind. With its spellbinding plot and haunting atmosphere, this book is sure to captivate readers from start to finish.",
     "totalPages": 336,
     "rating": 4.2,
     "category": "Thriller",
@@ -12,12 +12,13 @@
     "publisher": "Celadon Books",
     "yearOfPublishing": 2019
   },
+
   {
-    "bookId": 2,
+    "id": 2,
     "bookName": "Educated",
     "author": "Tara Westover",
-    "image": "educated.jpg",
-    "review": "A compelling memoir about the power of education and overcoming adversity.",
+    "image": "https://i.ibb.co/MMkpDbC/Educated.jpg",
+    "review": "Educated, penned by Tara Westover, is a mesmerizing memoir chronicling the author's journey from a remote mountain in Idaho to the hallowed halls of academia. Westover recounts her upbringing in a strict, survivalist family, isolated from mainstream society and devoid of formal education. Despite her unconventional upbringing, Westover's thirst for knowledge propels her on a remarkable odyssey of self-discovery and empowerment. Through poignant prose, Westover vividly depicts the challenges she faces as she grapples with her identity, familial ties, and the pursuit of education against all odds. The narrative is a testament to the resilience of the human spirit and the transformative power of education. Educated is not merely a tale of triumph over adversity; it is a profound exploration of the complexities of family dynamics, the impact of upbringing on personal development, and the quest for autonomy and self-realization. Westover's storytelling is raw and unflinching, inviting readers to confront their own assumptions and prejudices while immersing themselves in her extraordinary life journey. With its gripping narrative and insightful reflections, Educated is a poignant memoir that resonates long after the final page is turned. It is a testament to the indomitable human spirit and the enduring power of education to illuminate the path to self-discovery and fulfillment.",
     "totalPages": 334,
     "rating": 4.6,
     "category": "Memoir",
@@ -26,11 +27,11 @@
     "yearOfPublishing": 2018
   },
   {
-    "bookId": 3,
+    "id": 3,
     "bookName": "The Night Circus",
     "author": "Erin Morgenstern",
-    "image": "the_night_circus.jpg",
-    "review": "An enchanting tale of magic, love, and rivalry set within the mysterious world of a magical circus.",
+    "image": "https://i.ibb.co/J3bJ5nY/night-circus.jpg",
+    "review": "The Night Circus by Erin Morgenstern is a bewitching tale of enchantment and intrigue set within the confines of a magical circus that appears without warning and disappears just as mysteriously. Morgenstern's prose is lush and evocative, painting a vivid portrait of a world where dreams and reality intertwine. At the heart of the story are two young illusionists, Celia and Marco, bound by a magical competition orchestrated by their enigmatic mentors. As they weave intricate spells and create breathtaking spectacles within the confines of the circus, their rivalry evolves into a passionate love affair that threatens to unravel the very fabric of the circus itself. Morgenstern's narrative unfolds like a mesmerizing tapestry, rich in detail and imbued with a sense of wonder. The circus itself is a character unto itself, a place of wonder and mystery where each tent holds its own enchantments and secrets. But beneath the surface glamour lies a darker undercurrent of manipulation and sacrifice, as Celia and Marco grapple with the consequences of their actions and the true nature of their fate. The Night Circus is a captivating blend of fantasy and romance, a spellbinding tale that transports readers to a world where anything is possible and the boundaries between reality and illusion blur. With its enchanting prose and imaginative storytelling, The Night Circus is a literary marvel that will leave readers spellbound long after the final page is turned.",
     "totalPages": 387,
     "rating": 4.4,
     "category": "Fantasy",
@@ -39,11 +40,11 @@
     "yearOfPublishing": 2011
   },
   {
-    "bookId": 4,
+    "id": 4,
     "bookName": "The Alchemist",
     "author": "Paulo Coelho",
-    "image": "the_alchemist.jpg",
-    "review": "A captivating story about following your dreams and the journey of self-discovery.",
+    "image": "https://i.ibb.co/Lhss3cf/alchemist.jpg",
+    "review": "The Alchemist by Paulo Coelho is a timeless allegorical tale that follows the journey of Santiago, a shepherd boy, as he embarks on a quest to fulfill his Personal Legend. Set against the backdrop of the mystical desert, Santiago encounters a series of wise mentors, unexpected challenges, and profound revelations that ultimately lead him to discover the true meaning of life and the importance of pursuing one's dreams. Coelho's prose is simple yet profound, imparting timeless wisdom and spiritual insights that resonate with readers of all ages. The novel's universal themes of destiny, perseverance, and the interconnectedness of all things have made it a beloved classic that continues to inspire and uplift millions of readers around the world. The Alchemist is more than just a book; it is a transformative journey that encourages readers to listen to their hearts, follow their dreams, and embrace the magic of life's infinite possibilities.",
     "totalPages": 197,
     "rating": 4.1,
     "category": "Fiction",
@@ -52,11 +53,11 @@
     "yearOfPublishing": 1988
   },
   {
-    "bookId": 5,
+    "id": 5,
     "bookName": "The Girl on the Train",
     "author": "Paula Hawkins",
-    "image": "the_girl_on_the_train.jpg",
-    "review": "A gripping psychological thriller that explores the complexities of memory and perception.",
+    "image": "https://i.ibb.co/4mwVw8R/girl-train.jpg",
+    "review": "The Girl on the Train by Paula Hawkins is a gripping psychological thriller that immerses readers in a complex web of lies, deception, and intrigue. The narrative unfolds through the perspectives of three women – Rachel, Megan, and Anna – whose lives become intertwined in unexpected ways. Rachel, an alcoholic struggling to cope with her failed marriage, finds solace in observing a seemingly perfect couple from the train window during her daily commute. However, when Megan, one half of the couple, goes missing, Rachel becomes embroiled in the investigation, forcing her to confront her own demons and uncover the truth about the people she thought she knew. Hawkins masterfully crafts a suspenseful and atmospheric tale filled with unreliable narrators, shocking twists, and dark secrets lurking beneath the surface of suburban life. The novel explores themes of addiction, obsession, and the fragility of memory, keeping readers on the edge of their seats until the final, jaw-dropping revelation. With its taut pacing and intricate plotting, The Girl on the Train is a riveting read that will leave readers guessing until the very end.",
     "totalPages": 323,
     "rating": 4.0,
     "category": "Thriller",
@@ -64,12 +65,13 @@
     "publisher": "Riverhead Books",
     "yearOfPublishing": 2015
   },
+
   {
-    "bookId": 6,
+    "id": 6,
     "bookName": "Sapiens: A Brief History of Humankind",
     "author": "Yuval Noah Harari",
-    "image": "sapiens.jpg",
-    "review": "An insightful exploration of the history of Homo sapiens, from the Stone Age to the present.",
+    "image": "https://i.ibb.co/7WqPVNp/sapiens.jpg",
+    "review": "Sapiens: A Brief History of Humankind by Yuval Noah Harari is an illuminating exploration of the history of Homo sapiens, from the emergence of our species to the present day. Harari masterfully weaves together anthropology, biology, history, and philosophy to provide readers with a comprehensive understanding of how Homo sapiens evolved, thrived, and shaped the world around them.The book delves into key milestones in human history, such as the Cognitive Revolution, the Agricultural Revolution, and the Scientific Revolution, examining how these developments have fundamentally altered the course of human civilization. Harari challenges conventional wisdom and offers thought-provoking insights into the nature of humanity, consciousness, and the meaning of life. What sets Sapiens apart is its ability to distill complex ideas into accessible prose, making it a compelling read for both scholars and casual readers alike. Harari's engaging narrative style and wide-ranging scope ensure that readers will come away with a deeper appreciation for the human story and our place in the universe. Sapiens is not just a history book; it is a profound meditation on the human condition and the forces that have shaped our species' destiny. Thought-provoking and enlightening, Sapiens is a must-read for anyone interested in understanding the past, present, and future of humanity.",
     "totalPages": 443,
     "rating": 4.8,
     "category": "Non-fiction",
@@ -78,11 +80,11 @@
     "yearOfPublishing": 2011
   },
   {
-    "bookId": 7,
+    "id": 7,
     "bookName": "The Martian",
     "author": "Andy Weir",
-    "image": "the_martian.jpg",
-    "review": "A thrilling science fiction novel that follows an astronaut's struggle to survive on Mars.",
+    "image": "https://i.ibb.co/txG2WXZ/martian.jpg",
+    "review": "The Martian by Andy Weir is a thrilling science fiction novel that follows the gripping tale of astronaut Mark Watney, who is stranded alone on Mars after a mission goes awry. With limited resources and facing insurmountable odds, Watney must rely on his ingenuity, resourcefulness, and determination to survive in the harsh and unforgiving Martian environment. Weir's meticulous attention to scientific detail lends an air of authenticity to the narrative, immersing readers in the technical challenges and logistical hurdles that Watney must overcome in his fight for survival. The novel is as much a celebration of human resilience and the triumph of the human spirit as it is a gripping adventure story set against the backdrop of the Red Planet. What sets The Martian apart is its blend of humor, suspense, and heart, as Weir infuses the story with wit and charm even in the face of seemingly insurmountable odds. The result is a page-turner that keeps readers on the edge of their seats from start to finish, rooting for Watney every step of the way. With its compelling narrative, engaging characters, and thrilling plot twists, The Martian is a must-read for fans of science fiction and adventure alike. It's a testament to the power of human ingenuity and the indomitable spirit of exploration that drives us to push the boundaries of what is possible, even in the face of seemingly impossible odds.",
     "totalPages": 369,
     "rating": 4.5,
     "category": "Science Fiction",
@@ -91,11 +93,11 @@
     "yearOfPublishing": 2011
   },
   {
-    "bookId": 8,
+    "id": 8,
     "bookName": "Harry Potter and the Sorcerer's Stone",
     "author": "J.K. Rowling",
-    "image": "harry_potter_and_the_sorcerers_stone.jpg",
-    "review": "A magical journey into the world of Hogwarts School of Witchcraft and Wizardry.",
+    "image": " https://i.ibb.co/g7hcJCj/harry-potter.jpg",
+    "review": "Harry Potter and the Sorcerer's Stone, the first installment in J.K. Rowling's beloved series, introduces readers to the magical world of Hogwarts School of Witchcraft and Wizardry and the young boy who would become one of its most iconic figures: Harry Potter. The story follows Harry's journey from the mundane existence of life with his cruel aunt and uncle to the discovery of his true identity as a wizard and his enrollment at Hogwarts. Rowling's masterful storytelling captivates readers with its richly imagined universe filled with spells, potions, and mythical creatures. The novel's blend of adventure, mystery, and coming-of-age themes makes it a timeless classic that appeals to readers of all ages. At its heart, Harry Potter and the Sorcerer's Stone is a story about friendship, courage, and the power of love to conquer even the darkest of forces. Through Harry's eyes, readers are transported to a world where anything is possible, where magic exists alongside the mundane, and where the bonds of friendship and loyalty are tested and strengthened in the face of adversity. With its memorable characters, enchanting setting, and thrilling plot twists, Harry Potter and the Sorcerer's Stone is a book that continues to captivate and inspire readers around the world, reminding us all of the transformative power of imagination and the enduring magic of storytelling.",
     "totalPages": 309,
     "rating": 4.9,
     "category": "Fantasy",
@@ -103,12 +105,13 @@
     "publisher": "Bloomsbury",
     "yearOfPublishing": 1997
   },
+
   {
-    "bookId": 9,
+    "id": 9,
     "bookName": "The Hunger Games",
     "author": "Suzanne Collins",
-    "image": "the_hunger_games.jpg",
-    "review": "A thrilling dystopian novel that explores themes of survival, oppression, and rebellion.",
+    "image": " https://i.ibb.co/0Fbbs33/hunger-games.jpg",
+    "review": "In 'The Hunger Games' by Suzanne Collins, readers are thrust into a dystopian world where the Capitol rules with an iron fist and the districts are forced to send children as tributes to fight to the death in the annual Hunger Games. The story follows Katniss Everdeen, a resourceful young woman from District 12, who volunteers to take her sister's place in the brutal competition. Collins creates a gripping narrative filled with tension, action, and political intrigue, as Katniss navigates the deadly arena while grappling with her own moral dilemmas and complex emotions. The novel explores themes of survival, sacrifice, and rebellion, as Katniss becomes a symbol of hope and defiance against the oppressive regime. What sets 'The Hunger Games' apart is its compelling protagonist and the vividly realized world of Panem, a society divided by wealth, power, and privilege. Collins' sharp social commentary and thought-provoking allegory elevate the story beyond mere entertainment, sparking important conversations about power, inequality, and the human capacity for resilience.With its fast-paced plot, compelling characters, and thought-provoking themes, 'The Hunger Games' is a riveting read that keeps readers on the edge of their seats until the very end. It's a powerful reminder of the importance of standing up against injustice and fighting for a better world, even in the face of overwhelming odds.",
     "totalPages": 374,
     "rating": 4.3,
     "category": "Dystopian",
@@ -117,11 +120,11 @@
     "yearOfPublishing": 2008
   },
   {
-    "bookId": 10,
+    "id": 10,
     "bookName": "The Da Vinci Code",
     "author": "Dan Brown",
-    "image": "the_da_vinci_code.jpg",
-    "review": "A fast-paced thriller filled with intrigue, mystery, and historical puzzles.",
+    "image": "https://i.ibb.co/342ThCw/vinci-code.jpg",
+    "review": "'The Da Vinci Code' by Dan Brown is a thrilling mystery that takes readers on a whirlwind adventure through the corridors of history, religion, and conspiracy. The novel follows symbologist Robert Langdon and cryptologist Sophie Neveu as they unravel a series of cryptic clues left behind by a murdered curator at the Louvre Museum in Paris. As Langdon and Neveu race against time to solve the mystery, they uncover a web of secrets that lead them to uncover a hidden truth that could shake the foundations of Christianity. Brown's intricate plot twists and turns, keeping readers guessing until the very end. What makes 'The Da Vinci Code' so compelling is its seamless blend of fact and fiction, weaving together historical facts, religious mythology, and artistic symbolism to create a gripping narrative that challenges readers' perceptions of reality. Brown's meticulous research and attention to detail lend an air of authenticity to the story, drawing readers deeper into the mystery with each revelation. With its fast-paced action, intricate puzzles, and thought-provoking themes, 'The Da Vinci Code' is a thrilling ride from start to finish. It's a book that not only entertains but also educates, sparking important conversations about religion, history, and the nature of belief. Whether you're a fan of mystery, thriller, or historical fiction, 'The Da Vinci Code' is sure to captivate and intrigue readers of all tastes.",
     "totalPages": 454,
     "rating": 4.0,
     "category": "Thriller",
@@ -130,11 +133,11 @@
     "yearOfPublishing": 2003
   },
   {
-    "bookId": 11,
+    "id": 11,
     "bookName": "The Kite Runner",
     "author": "Khaled Hosseini",
-    "image": "the_kite_runner.jpg",
-    "review": "A poignant story of friendship, betrayal, and redemption set in Afghanistan.",
+    "image": "https://i.ibb.co/bmQ5rw9/kite-runner.jpg",
+    "review": "The Kite Runner by Khaled Hosseini is a poignant and powerful tale of friendship, betrayal, and redemption set against the backdrop of Afghanistan's tumultuous history. The novel follows the intertwined lives of Amir and Hassan, two young boys from different social classes, as they navigate the complexities of friendship and loyalty in a rapidly changing world. Hosseini's evocative prose transports readers to the vibrant streets of Kabul, where the bond between Amir and Hassan is tested by jealousy, guilt, and the ravages of war. The story spans decades and continents, exploring themes of identity, forgiveness, and the consequences of our actions. What sets The Kite Runner apart is its deeply human characters and the universal truths it explores about love, loss, and the search for redemption. Hosseini's richly layered narrative is both heartbreaking and hopeful, reminding us of the enduring power of friendship and the resilience of the human spirit. With its compelling storyline, vivid imagery, and emotional depth, The Kite Runner is a literary masterpiece that resonates long after the final page is turned. It's a testament to the enduring bonds of friendship and the transformative power of forgiveness, offering readers a glimpse into the beauty and brutality of the human experience.",
     "totalPages": 371,
     "rating": 4.7,
     "category": "Fiction",
@@ -143,11 +146,11 @@
     "yearOfPublishing": 2003
   },
   {
-    "bookId": 12,
+    "id": 12,
     "bookName": "The Lord of the Rings",
     "author": "J.R.R. Tolkien",
-    "image": "the_lord_of_the_rings.jpg",
-    "review": "An epic fantasy trilogy that transports readers to the enchanting world of Middle-earth.",
+    "image": "https://i.ibb.co/wQsHdww/lord-rings.jpg",
+    "review": "'The Lord of the Rings' by J.R.R. Tolkien is an epic fantasy trilogy that transports readers to the enchanting world of Middle-earth, where a diverse cast of characters embarks on a perilous quest to destroy the One Ring and defeat the Dark Lord Sauron. Tolkien's richly imagined universe is populated with elves, dwarves, wizards, and hobbits, each playing a crucial role in the fate of the world. The trilogy is a masterful blend of adventure, mythology, and moral philosophy, exploring themes of heroism, friendship, and the struggle between good and evil. Tolkien's intricate world-building and attention to detail create a sense of immersion that captivates readers from the very first page. What sets 'The Lord of the Rings' apart is its timeless storytelling and universal themes that resonate with readers of all ages and backgrounds. Tolkien's prose is lyrical and evocative, painting vivid pictures of breathtaking landscapes and epic battles that linger in the imagination long after the book is finished. With its epic scope, unforgettable characters, and profound insights into the human condition, 'The Lord of the Rings' is a literary masterpiece that has stood the test of time. It's a timeless classic that continues to inspire generations of readers with its message of hope, courage, and the enduring power of friendship.",
     "totalPages": 1178,
     "rating": 4.9,
     "category": "Fantasy",
