@@ -48,8 +48,8 @@ const BookDetails = () => {
               <p className="mt-3 text-lg dark:text-gray-600">By: {author}</p>
               <div className="mt-12 space-y-12">
                 <p>{category}</p>
-                <p>
-                  <span className="font-bold">Review: {review}</span>
+                <p className="font-bold">
+                  Review:<span className="font-normal"> {review}</span>
                 </p>
 
                 <p className="flex justify-between">Tags: {tags}</p>

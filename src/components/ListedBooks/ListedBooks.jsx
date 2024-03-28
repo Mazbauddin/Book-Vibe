@@ -34,7 +34,7 @@ const ListedBooks = () => {
       </div>
       {/* sort end */}
       {/* tabs start */}
-      <div className="flex items-center -mx-4 overflow-x-auto overflow-y-hidden sm:justify-start flex-nowrap dark:bg-gray-100 dark:text-gray-800">
+      <div className="flex mb-10 items-center  overflow-x-auto overflow-y-hidden sm:justify-start flex-nowrap dark:bg-gray-100 dark:text-gray-800">
         <Link
           to={"read"}
           onClick={() => setTabIndex(0)}
