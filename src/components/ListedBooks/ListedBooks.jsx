@@ -6,7 +6,6 @@ import Spinner from "../Spinner/Spinner";
 
 const ListedBooks = () => {
   const { localData, loading } = useLocalStorage();
-  console.log(localData);
 
   const [tabIndex, setTabIndex] = useState(0);
   if (loading) {
@@ -16,17 +15,19 @@ const ListedBooks = () => {
     <div className="max-w-6xl mx-auto">
       <h2 className="text-5xl text-center my-20 font-bold">Books</h2>
       {/* sort start */}
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center m-10 lg:m-0">
         <details className="dropdown mb-20 text-center">
-          <summary className="m-1 btn">Sort</summary>
+          <summary className="m-1 btn bg-[#23BE0A] text-white hover:bg-transparent border-2 border-[#23BE0A] hover:text-[#23BE0A] hover:border-[#23BE0A] mr-4">
+            Sort
+          </summary>
           <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
-            <li>
+            <li className="hover:text-white hover:bg-[#23BE0A] hover:rounded-lg">
               <a>Rating</a>
             </li>
-            <li>
+            <li className="hover:text-white hover:bg-[#23BE0A] hover:rounded-lg">
               <a>Number of pages</a>
             </li>
-            <li>
+            <li className="hover:text-white hover:bg-[#23BE0A] hover:rounded-lg">
               <a>Published year</a>
             </li>
           </ul>
@@ -34,7 +35,7 @@ const ListedBooks = () => {
       </div>
       {/* sort end */}
       {/* tabs start */}
-      <div className="flex mb-10 items-center  overflow-x-auto overflow-y-hidden sm:justify-start flex-nowrap dark:bg-gray-100 dark:text-gray-800">
+      <div className="flex mb-10 mt-20 items-center overflow-x-auto overflow-y-hidden sm:justify-start flex-nowrap dark:bg-gray-100 dark:text-gray-800 m-10 lg:m-0">
         <Link
           to={"read"}
           onClick={() => setTabIndex(0)}

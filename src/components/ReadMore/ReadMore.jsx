@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-// import useLocalStorage from "../Hooks/useLocalStorage";
 import { HiOutlineUsers } from "react-icons/hi2";
 import { Link } from "react-router-dom";
 import { IoBookOutline } from "react-icons/io5";
@@ -19,7 +18,7 @@ const ReadMore = ({ data }) => {
     image,
   } = data || {};
   return (
-    <div className="card p-6 mb-5 lg:card-side max-w-6xl shadow-xl">
+    <div className="card p-6 mb-5 lg:card-side max-w-6xl shadow-xl m-6 lg:m-0">
       <figure>
         <img
           className="flex-grow h-[250px] mb-4 dark:bg-gray-500 rounded-lg mx-auto bg-cover  bg-no-repeat bg-center"

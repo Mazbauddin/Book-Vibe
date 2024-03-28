@@ -1,5 +1,3 @@
-import React from "react";
-
 const Contacts = () => {
   return (
     <div className="mt-20 bg-[#f3f3f3] rounded-lg">
@@ -51,10 +49,7 @@ const Contacts = () => {
               </p>
             </div>
           </div>
-          <form
-            novalidate=""
-            className="flex flex-col py-6 space-y-6 md:py-0 md:px-6"
-          >
+          <form className="flex flex-col py-6 space-y-6 md:py-0 md:px-6">
             <label className="block">
               <span className="mb-1">Full name</span>
               <input

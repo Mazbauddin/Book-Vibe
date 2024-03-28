@@ -10,7 +10,7 @@ const Book = ({ item, loading }) => {
   }
   return (
     <Link to={`/book-details/${id}`}>
-      <div className="flex flex-col max-w-lg p-6 space-y-6 overflow-hidden rounded-lg shadow-md dark:bg-gray-50 dark:text-gray-800 h-full gap-8">
+      <div className="flex flex-col m-5 lg:m-0 max-w-lg p-6 space-y-6 overflow-hidden rounded-lg shadow-md dark:bg-gray-50 dark:text-gray-800 h-full gap-8">
         <div className="bg-[#F3F3F3] px-10 py-10 rounded-lg">
           <img
             src={image}

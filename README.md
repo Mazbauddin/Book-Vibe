@@ -2,7 +2,7 @@
 
 Live site:
 
--
+- [BooK Vibe](https://book-vibe-assignment-8-mazbauddin.netlify.app/)
 
 Resources:
 

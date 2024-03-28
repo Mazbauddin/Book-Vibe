@@ -1,35 +1,14 @@
 import { useState } from "react";
 import useBooksData from "../Hooks/useBooksData";
 import useLocalStorage from "../Hooks/useLocalStorage";
-import {
-  BarChart,
-  Bar,
-  Cell,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  Legend,
-  ResponsiveContainer,
-} from "recharts";
+import { BarChart, Bar } from "recharts";
 
 const PagesToRead = () => {
-  const [books, setBooks] = useState([]);
+  const [books] = useState([]);
   const { data } = useBooksData();
   const { localData } = useLocalStorage();
 
-  const {
-    bookName,
-    author,
-    category,
-    rating,
-    tags,
-    review,
-    totalPages,
-    publisher,
-    yearOfPublishing,
-    image,
-  } = data || {};
+  const { bookName, author, category } = data || {};
   // const data = [
   //   {
   //     name: "Page a",
