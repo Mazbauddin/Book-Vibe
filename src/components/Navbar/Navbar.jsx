@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="">
+    <div className="max-w-6xl">
       <div className="navbar bg-red-500 shadow-lg fixed z-10 ">
         <div className="navbar-start">
           <div className="dropdown">
@@ -56,6 +56,26 @@ const Navbar = () => {
               >
                 Pages to Read
               </NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#23BE0A] rounded-lg  mx-5 font-bold border-2 px-5 py-3 border-green-500 bg-transparent hover:bg-transparent"
+                    : "font-bold px-5 py-3 mx-5"
+                }
+                to={"/features"}
+              >
+                Features
+              </NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#23BE0A] rounded-lg  mx-5 font-bold border-2 px-5 py-3 border-green-500 bg-transparent hover:bg-transparent"
+                    : "font-bold px-5 py-3 mx-5"
+                }
+                to={"/contacts"}
+              >
+                Contacts
+              </NavLink>
               {/* {links} */}
             </ul>
           </div>
@@ -96,9 +116,29 @@ const Navbar = () => {
             >
               Pages to Read
             </NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                isActive
+                  ? "text-[#23BE0A] rounded-lg  mx-5 font-bold border-2 px-5 py-3 border-green-500 bg-transparent hover:bg-transparent"
+                  : "font-bold px-5 py-3 mx-5"
+              }
+              to={"/features"}
+            >
+              Features
+            </NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                isActive
+                  ? "text-[#23BE0A] rounded-lg  mx-5 font-bold border-2 px-5 py-3 border-green-500 bg-transparent hover:bg-transparent"
+                  : "font-bold px-5 py-3 mx-5"
+              }
+              to={"/contacts"}
+            >
+              Contacts
+            </NavLink>
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end pl-16  lg:pl-10">
           <a className="btn bg-[#23BE0A] text-white hover:bg-transparent border-2 border-[#23BE0A] hover:text-[#23BE0A] hover:border-[#23BE0A] mr-4">
             Sign In
           </a>

@@ -10,29 +10,28 @@ const Book = ({ item, loading }) => {
   }
   return (
     <Link to={`/book-details/${id}`}>
-      <div className="flex flex-col max-w-lg p-6 space-y-6 overflow-hidden rounded-lg shadow-md dark:bg-gray-50 dark:text-gray-800">
-        <div className="bg-gray-500 px-10 py-10 rounded-lg">
+      <div className="flex flex-col max-w-lg p-6 space-y-6 overflow-hidden rounded-lg shadow-md dark:bg-gray-50 dark:text-gray-800 h-full gap-8">
+        <div className="bg-[#F3F3F3] px-10 py-10 rounded-lg">
           <img
             src={image}
             alt=""
-            className="object-cover w-4/5 mb-4 h-20 sm:h-40 dark:bg-gray-500 rounded-lg mx-auto"
+            className="flex-grow h-[350px] mb-4 dark:bg-gray-500 rounded-lg mx-auto bg-cover  bg-no-repeat bg-center"
           />
         </div>
         <div>
-          <div className="flex justify-between ">
+          <div className="flex justify-between">
             {tags.map((tag) => (
               <a
                 key={tag}
                 rel="noopener noreferrer"
                 href="#"
-                className="px-3 py-1"
+                className="px-3 py-1 text-[#23BE0A]"
               >
                 {tag}
               </a>
             ))}
           </div>
-          <h2 className="mb-1 text-xl font-semibold"> {bookName}</h2>
-
+          <h2 className="mb-1 text-2xl font-bold"> {bookName}</h2>
           <p className="text-sm dark:text-gray-600">By: {author}</p>
         </div>
         <div className="flex flex-wrap justify-between">

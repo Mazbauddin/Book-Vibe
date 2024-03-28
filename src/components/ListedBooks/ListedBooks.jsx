@@ -14,9 +14,24 @@ const ListedBooks = () => {
   }
   return (
     <div className="max-w-6xl mx-auto">
-      <h2 className=" text-center">Books</h2>
+      <h2 className="text-5xl text-center my-20 font-bold">Books</h2>
       {/* sort start */}
-      <h1 className="text-center">Sort</h1>
+      <div className="flex justify-between items-center">
+        <details className="dropdown mb-20 text-center">
+          <summary className="m-1 btn">Sort</summary>
+          <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+            <li>
+              <a>Rating</a>
+            </li>
+            <li>
+              <a>Number of pages</a>
+            </li>
+            <li>
+              <a>Published year</a>
+            </li>
+          </ul>
+        </details>
+      </div>
       {/* sort end */}
       {/* tabs start */}
       <div className="flex items-center -mx-4 overflow-x-auto overflow-y-hidden sm:justify-start flex-nowrap dark:bg-gray-100 dark:text-gray-800">

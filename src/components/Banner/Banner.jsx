@@ -2,20 +2,20 @@ import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
-    <div className="container mx-auto">
-      <div className="hero min-h-screen bg-base-200 rounded-lg">
-        <div className="hero-content flex-col lg:flex-row-reverse w-3/4">
+    <div className="container mx-auto mt-10">
+      <div className="hero min-h-[80vh] bg-base-200 rounded-lg">
+        <div className="hero-content flex-col lg:flex-row-reverse ">
           <img
-            src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
-            className="max-w-sm rounded-lg shadow-2xl"
+            src="https://i.ibb.co/QkJCQZz/silent-patient.png"
+            className="max-w-sm h-[450px] rounded-lg shadow-2xl"
           />
-          <div>
+          <div className="w-4/5 ">
             <h1 className="text-6xl w-4/5 font-bold">
               Books to freshen up your bookshelf
             </h1>
             <Link
               to="listed_books"
-              className="btn bg-[#23BE0A] text-white hover:bg-transparent border-2 border-[#23BE0A] hover:text-[#23BE0A] hover:border-[#23BE0A] mt-10"
+              className="btn bg-[#23BE0A] text-white hover:bg-transparent border-2  border-[#23BE0A] hover:text-[#23BE0A] hover:border-[#23BE0A] mt-16"
             >
               View The List
             </Link>

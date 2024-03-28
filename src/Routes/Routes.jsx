@@ -7,6 +7,8 @@ import PagesToRead from "../components/PagesToRead/PagesToRead";
 import BookDetails from "../components/BookDetails/BookDetails";
 import ReadMore from "../components/ReadMore/ReadMore";
 import Wishlist from "../components/Wishlist/Wishlist";
+import Features from "../components/Features/Features";
+import Contacts from "../components/Contacts/Contacts";
 
 export const router = createBrowserRouter([
   {
@@ -35,6 +37,14 @@ export const router = createBrowserRouter([
       {
         path: "/Pages_to_read",
         element: <PagesToRead></PagesToRead>,
+      },
+      {
+        path: "/features",
+        element: <Features></Features>,
+      },
+      {
+        path: "/contacts",
+        element: <Contacts></Contacts>,
       },
       {
         path: "/book-details/:id",
